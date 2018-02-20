@@ -4,24 +4,42 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Welcome to my profile</h1>
-        <img src="https://avatars0.githubusercontent.com/u/32653386?s=400&u=78682e3b6f60ab3d6944a353ec2ae6b1670e8459&v=4">
-        <h2>Contact Details</h2>
-        <h3>Name:</h3>
-        <p>Karl Markus Jõgila</p>
-        <h3>Age:</h3>
-        <p>19</p>
+        <header class="main-header">
+            <h1>Welcome to my profile</h1>
+            <img src="https://avatars0.githubusercontent.com/u/32653386?s=400&u=78682e3b6f60ab3d6944a353ec2ae6b1670e8459&v=4" class="profile-pic">
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#social">Social Life</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#contact">Contact</a></li>    
+                
+            </ul>
+        </nav>
+            <h2 id="about">About Me</h2>
+            <h3>Name:</h3>
+            <p>Karl Markus Jõgila</p>
+            <h3>Age:</h3>
+            <p>19</p>
+            <ul>
+                <li>Studying Cyber Security Engineering at TTÜ</li>
+                <li>CrossFit enthusiast</li>
+                <li>Interested in Web Development</li>
+        </header>
         <!-- this is a comment -->
-        <h2>Social Media:</h2>
+        <main class="main-section" id="social">
+        <h2>Social Media Accounts:</h2>
         <ul>
         <li>
-            Facebook <a href = 'https://www.facebook.com/karlmarkus.jogila'><button>Click here!</button></a>
+         <a href = 'https://www.facebook.com/karlmarkus.jogila'>Facebook</a>
         </li>
         <li>
-            Instagram <a href = 'https://www.instagram.com/karljogila/'><button>Click here!</button></a>
+            <a href = 'https://www.instagram.com/karljogila/'>Instagram</a>
         </li>
     </ul>      
     
+
     <h2>Hobby tabel : </h2>
 
     <table border = "1">
@@ -60,7 +78,11 @@
         
     </table>
 
-    <br />
+</main>
+
+    
+
+    <section class="form" id="form">
     <h2>Forms : </h2>
     <form>
     <label name="first-name">First name:</label>
@@ -111,5 +133,10 @@
 
 
     </form>
+<section id="contact">
+<h2>Contact</h2>
+            <p><strong>Email: </strong><a href="mailto:?karlmjogila@gmail.com?subject=Hi%20There!">karlmjogila@gmail.com</a></p>
+            <p><strong>Phone:</strong>: 12345678</p>
+</section>
     </body>
 </html>
