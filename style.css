@@ -4,21 +4,23 @@ body {
 	text-align: center;
 	padding: 5px;
 	margin: 5px;
-	background-color: #878787;
+	background-color: #434a52;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 1.5625em;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
 .main-header ul {
 	text-align: left;
-	font-size: 18px;
+	font-size: 1.125em;
 	font-weight: bold;
 
 
@@ -30,7 +32,7 @@ table {
 
 footer {
 	text-align: left;
-	font-size: 16px;
+	font-size: 1em;
 	padding: 2px;
 
 }
@@ -45,18 +47,18 @@ footer {
 }
 
 .main-header {
-	border: 5px solid blue;
+	border: 0.3125em solid blue;
 	
 }
 
 .main-section {
-	border: 5px solid black;
+	border: 0.3125em solid black;
 	text-align: left;
 	
 }
 
 .form {
-	border: 5px solid white;
+	border: 0.3125em solid white;
 	text-align: left;
 
 }
@@ -65,13 +67,20 @@ footer {
 
 a:link {
 	color: black;
-}
-
-a:visited {
-	color: purple;
+	text-decoration: none;
 }
 
 a:hover {
-	color: blue;
+	color: black;
+	text-decoration: none;
 }
 
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color:black;
+	text-decoration: none;
+}
