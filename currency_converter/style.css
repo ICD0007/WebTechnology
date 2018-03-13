@@ -1,0 +1,29 @@
+* {
+	text-align: center;
+	background-color: #E0E0E0;
+	font-family: verdana;
+}
+
+h2, h3 {
+	font-weight: normal;
+}
+
+.input, .to-currency-id, .base-currency-id, #result, #converted {
+	background-color: white;
+}
+
+.button {
+    background-color: #E0E0E0;
+    color: black;
+    border: 2px solid black;
+    margin: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;

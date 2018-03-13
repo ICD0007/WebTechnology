@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Currency Converter</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Currency Converter</h1>
+		<h2>This is the homework for course ICD0007</h2>
+		<h3>You can convert between EUR, GBP and USD.</h2>
+		
+    		<label name="base-currency"></label>
+    			<input id="amount" type="number" class="input" name="from-currency" placeholder="Enter Amount...">
+    			<select class="base-currency-id" id="base">
+    				<option value="" selected disabled hidden>From</option>
+        			<option value="EUR">EUR</option>
+			        <option value="USD">USD</option>
+			        <option value="GBP">GBP</option>
+    			</select>
+    			<select class="to-currency-id" id="to">
+    				<option value="" selected disabled hidden>To</option>
+        			<option value="EUR">EUR</option>
+			        <option value="USD">USD</option>
+			        <option value="GBP">GBP</option>
+    			</select>
+    			</br>
+    			<button class="button" id="button">Convert</button>
+    			</br>
+    			<input type="text" name="result" id="result" placeholder="Result" readonly>
+		
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+    <script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
